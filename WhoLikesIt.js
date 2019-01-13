@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <script type="text/javascript">
-    function likes(names) {
+function likes(names) {
         switch(names.length){
           case 0: return 'no one likes this'; break;
           case 1: return `${names[0]} likes this`; break;
@@ -17,6 +9,3 @@
           return `${names[0]}, ${names[1]} and ${names.length - 2} others like this`
       }
       console.log(likes(['Alex', 'Jacob', 'Mark', 'Max'])); //Output = 'Alex, Jacob and 2 others like this'
-    </script>
-  </body>
-</html>
