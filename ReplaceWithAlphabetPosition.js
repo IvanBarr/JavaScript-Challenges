@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <script type="text/javascript">
-    function alphabetPosition(text) {
+  function alphabetPosition(text) {
       var alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
       var strChar;
       var posArray = [];
@@ -22,6 +14,3 @@
       return posArray;
       }
       alphabetPosition('Hello and Bye'); //Output = 8 5 12 12 15 1 14 4 2 25 5
-    </script>
-  </body>
-</html>
